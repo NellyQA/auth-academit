@@ -5,15 +5,17 @@ export class LoginAuthDto {
 
   @ApiProperty({
     description: 'Email address of the user',
-    example: 'user@example.com',
+    example: 'fran@gmail.com',
   })
   @IsEmail()
   email: string;
 
   @ApiProperty({
     description: 'Password of the user',
-    example: 'strongPassword123!',
+    example: '1234567',
   })
   @IsString()
   password: string;
 }
+
+
